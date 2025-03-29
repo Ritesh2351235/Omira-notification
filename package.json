@@ -1,0 +1,21 @@
+{
+  "name": "omira-notification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.14",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.90.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  }
+}
