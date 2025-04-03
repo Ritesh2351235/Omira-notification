@@ -11,9 +11,9 @@ const app = express();
 app.use(express.json());
 
 // Constants
-const TRIGGER_PHRASES = ["hey omira", "hey, omira"]; // Base triggers
+const TRIGGER_PHRASES = ["hey omi", "hey, omi"]; // Base triggers
 const PARTIAL_FIRST = ["hey", "hey,"]; // First part of trigger
-const PARTIAL_SECOND = ["omira"]; // Second part of trigger
+const PARTIAL_SECOND = ["omi"]; // Second part of trigger
 const QUESTION_AGGREGATION_TIME = 5000; // 5 seconds to wait for collecting the question
 const NOTIFICATION_COOLDOWN = 60000; // 1 minute cooldown between notifications
 // Add OpenAI API rate limiting constants
