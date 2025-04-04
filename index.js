@@ -208,7 +208,7 @@ async function getOpenAIResponse(text, messages) {
     for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
       try {
         const response = await openai.chat.completions.create({
-          model: "gpt-4",
+          model: "gpt-4o-mini-2024-07-18",
           messages: [
             {
               role: "system",
@@ -307,7 +307,7 @@ async function analyzeConversation(messages) {
     for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
       try {
         const response = await openai.chat.completions.create({
-          model: "gpt-4",
+          model: "gpt-4o-mini-2024-07-18",
           messages: [
             {
               role: "system",
